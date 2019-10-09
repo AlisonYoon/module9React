@@ -23,3 +23,8 @@
 //      2. The virtual DOM gets compared to what it looked like before the changes, React figures out what has changed
 //      3. Just the updated objects get updated on the real DOM
 //      4. Changes on the real DOM make the screen change
+
+
+// What does the component actually look like?
+//  1. Functional component
+//  2. Class component
