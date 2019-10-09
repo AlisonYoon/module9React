@@ -67,3 +67,15 @@
 //      Focus : onBlur() -> when you lose focus, onFocus()
 //      Mouse : onClick(), onDoubleClick(), onMouseOver()
 //      There are loads more - check docs
+
+// Using your own functions inside render
+// Good practice is to use fat arrow functions
+//      - because it means you don't have to manually change the scope of "this"
+// The old way in React requires you to bind "this" keyword
+// If you write a function with old syntax, remember to bind this keyword
+//      - inside constructor
+//               constructor(props) {
+//                      super(props)
+//                      this.functionName = this.functionName.bind(this)
+//                 }
+//
