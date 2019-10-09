@@ -27,4 +27,8 @@
 
 // What does the component actually look like?
 //  1. Functional component
+//          - functional because they are basically functions
+//          - stateless because they do not hold/manage state
+//          - presentational because all they do is output UI elements
 //  2. Class component
+
