@@ -53,3 +53,6 @@
 // Make sure they're in the regular JS part of the component
 // Use ternary statements when ifs aren't possible (if it gets longer, extract the block of codes out so you can still use it ternary statement)
 
+// Class vs className
+// Can't use "class" in JSX because it's a reserved word in JavaScript
+// className gets rendered as class
