@@ -7,6 +7,8 @@ class Shiela extends React.Component {
             <div>
                 <p>Hello, I'm Shiela, a component with class</p>
                 <Greg />
+                <Greg />
+                <Greg />
             </div>
         )
     }
