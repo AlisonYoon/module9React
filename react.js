@@ -43,3 +43,7 @@
 // In your JSX, if you want to write regular JS, just put it between {}(<- it's called markers)
 // For multi line JSX, you must use (), and must have a surrounding outer element
 
+// self closing tags must have slashes in JSX (eg. <img />)
+// Any code inside <> is a JSX element.
+// If you want it to be treated as reg JS, use the {} (eg: <h1> { 5+4 } </h1> => 9 is printed out )
+// When you use JS inside curly braces, it's the same scope as the rest of the file.
