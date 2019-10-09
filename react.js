@@ -47,3 +47,9 @@
 // Any code inside <> is a JSX element.
 // If you want it to be treated as reg JS, use the {} (eg: <h1> { 5+4 } </h1> => 9 is printed out )
 // When you use JS inside curly braces, it's the same scope as the rest of the file.
+
+// JSX conditional
+// Can't do if statements in the way you expect in certain places
+// Make sure they're in the regular JS part of the component
+// Use ternary statements when ifs aren't possible
+
