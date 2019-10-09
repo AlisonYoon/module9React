@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';  // (./) means same level
+import Greg from './components/Greg/Greg' //don't need here when Greg is imported in Shiela.js
 import Shiela from './components/Shiela/Shiela'
 import * as serviceWorker from './serviceWorker';
 

@@ -31,4 +31,10 @@
 //          - stateless because they do not hold/manage state
 //          - presentational because all they do is output UI elements
 //  2. Class component
+//          - Class because they are basically classes
+//          - Smart because they can contain logic
+//          - Stateful because they can hold and/or manage local state
+//          - They are considered containers because they usually hold/contain other components
+
+
 
