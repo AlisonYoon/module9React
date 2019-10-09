@@ -5,10 +5,16 @@ import Header from '../Header/Header';
 class Layout extends React.Component {
     constructor(props) {
         super(props)
+        this.handleClickTwo = this.handleClickTwo.bind(this)
+
     }
 
     handleClick = () => {
         document.querySelector(".Header").style = "background: #CE7F13";
+    }
+
+    handleClickTwo() {
+        document.querySelector("h2").style = "color: #CE7F13";
     }
 
     render() {
@@ -16,7 +22,7 @@ class Layout extends React.Component {
         return (
             <div>
                 <Header/>
-                <h2>I like </h2>
+                <h2 onClick={this.handleClickTwo}>I like </h2>
                 <div>
                     <button onClick={this.handleClick}>Click to change header color</button>
                 </div>
