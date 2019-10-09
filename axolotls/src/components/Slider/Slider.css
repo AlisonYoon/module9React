@@ -1,0 +1,17 @@
+body {
+    background: #282c34;
+    color: #fff;
+}
+img {
+    width: 300px;
+    margin: auto;
+}
+div {
+    text-align: center;
+}
+.slick-prev {
+    left: 0;
+}
+.slick-next {
+    right: 0;
+}
