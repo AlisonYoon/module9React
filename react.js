@@ -51,5 +51,5 @@
 // JSX conditional
 // Can't do if statements in the way you expect in certain places
 // Make sure they're in the regular JS part of the component
-// Use ternary statements when ifs aren't possible
+// Use ternary statements when ifs aren't possible (if it gets longer, extract the block of codes out so you can still use it ternary statement)
 
