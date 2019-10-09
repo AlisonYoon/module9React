@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 
 class Layout extends React.Component {
     render() {
+        //<!--having <div> here, is because with JSX, you need surrounding element-->
         return (
             <div>
                 <Header />

@@ -36,5 +36,10 @@
 //          - Stateful because they can hold and/or manage local state
 //          - They are considered containers because they usually hold/contain other components
 
-
+// JSX : JavaScript Extension
+// It's a syntax extension that allows us to write JS that looks like HTML
+// We can use JS amongst our JSX
+// const NewThing = <img src = {user.picurl} />
+// In your JSX, if you want to write regular JS, just put it between {}(<- it's called markers)
+// For multi line JSX, you must use (), and must have a surrounding outer element
 
