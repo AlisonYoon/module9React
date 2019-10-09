@@ -56,3 +56,14 @@
 // Class vs className
 // Can't use "class" in JSX because it's a reserved word in JavaScript
 // className gets rendered as class
+
+// Event listeners in React
+// inline event listeners in JSX are ok in React (nowhere else though)
+// inline event listeners break S.O.C. but it's ok in React because S.O.C is damned in React
+// const Greeting = () => <h1 onClick= { insert JS here }> Hello </h1>
+// There are lots of different event listeners.
+//  Some good to know:
+//      keyboard : onKeyDown(), onKeyPress()
+//      Focus : onBlur() -> when you lose focus, onFocus()
+//      Mouse : onClick(), onDoubleClick(), onMouseOver()
+//      There are loads more - check docs
