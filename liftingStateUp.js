@@ -9,3 +9,6 @@
 //      and pass it down via props.
 //      It will end up in the original component's state, but the difference is that
 //      the data comes from props rather than created there.
+
+// This means when a re-render occurs at the top level common ancestor, then the data will
+// permeate through props to the child components and re-render (with the help of lifecycle method)
