@@ -9,7 +9,16 @@ import SimpleSlider from './components/Slider/Slider'
 import OldBinding from "./components/Thiskeyword/Thiskeyword";
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<OldBinding bing="bong" />, document.getElementById('root'));
+let obj = {
+    silly: 'billy'
+}
+
+let fun = () => {
+    console.log('oh what fun')
+}
+
+ReactDOM.render(<OldBinding bing="bong" gong={obj} func={fun} />, document.getElementById('root'));
+// To access fun() function with props, you need to use attribute name which is "func" here.
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

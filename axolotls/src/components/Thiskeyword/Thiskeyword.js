@@ -10,6 +10,7 @@ class OldBinding extends React.Component {
     handleClick() {
         console.log(this)
         console.log(this.props.bing)
+        console.log(this.props.func())
     }
 
     render() {
