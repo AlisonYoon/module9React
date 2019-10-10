@@ -9,6 +9,7 @@ class OldBinding extends React.Component {
     //this syntax requires the bind line in the constructor to work
     handleClick() {
         console.log(this)
+        console.log(this.props.bing)
     }
 
     render() {

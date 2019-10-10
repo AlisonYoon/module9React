@@ -6,9 +6,10 @@ import Greg from './components/Greg/Greg' //don't need here when Greg is importe
 import Shiela from './components/Shiela/Shiela'
 import Layout from './components/Layout/Layout.'
 import SimpleSlider from './components/Slider/Slider'
+import OldBinding from "./components/Thiskeyword/Thiskeyword";
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<SimpleSlider />, document.getElementById('root'));
+ReactDOM.render(<OldBinding bing="bong" />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
