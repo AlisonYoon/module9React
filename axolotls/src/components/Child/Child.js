@@ -1,5 +1,6 @@
 import React from 'react';
 import Grandchild from "../Grandchild/Grandchild";
+import './Child.css'
 
 class Child extends React.Component {
 
@@ -13,7 +14,7 @@ class Child extends React.Component {
                 <p>{this.props.word} : I'm using props from Parent</p>
                 I am a child with a {this.props.animal}
                 <img src={this.props.image} alt={this.props.animal} />
-                <Grandchild word={this.props.word} /> <span>I'm giving props to Grandchild</span>
+                <Grandchild word={this.props.word} /> <span className="child-prop">I'm giving parent's props to Grandchild</span>
             </div>
         )
     }
