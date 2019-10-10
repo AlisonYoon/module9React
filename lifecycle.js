@@ -6,3 +6,7 @@
 //          -> componentDidMount()
 // Component is removed from the DOM is called "Unmounting"
 //          -> componentWillUnmount()
+// When a parent re-renders and passes new props to a child
+//          -> componentDidUpdate()    -> use this method in the children so that when a parent updates,
+//                                          children gets re-rendered as well with new props
+
