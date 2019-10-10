@@ -4,3 +4,4 @@
 //          eg. <MyComponent createdBy="charlie" />
 // access it in the child component via this.props.attribute-name
 // Data passed can be string, objects, arrays or functions
+// so Props can be created in the Class level

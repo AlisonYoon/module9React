@@ -7,6 +7,7 @@ import Shiela from './components/Shiela/Shiela'
 import Layout from './components/Layout/Layout.'
 import SimpleSlider from './components/Slider/Slider'
 import OldBinding from "./components/Thiskeyword/Thiskeyword";
+import Parent from "./components/Parent/Parent";
 import * as serviceWorker from './serviceWorker';
 
 let obj = {
@@ -17,7 +18,8 @@ let fun = () => {
     console.log('oh what fun')
 }
 
-ReactDOM.render(<OldBinding bing="bong" gong={obj} func={fun} />, document.getElementById('root'));
+ReactDOM.render(<Parent />, document.getElementById('root'));
+// ReactDOM.render(<OldBinding bing="bong" gong={obj} func={fun} />, document.getElementById('root'));
 // To access fun() function with props, you need to use attribute name which is "func" here.
 
 // If you want your app to work offline and load faster, you can change
