@@ -10,9 +10,10 @@ import OldBinding from "./components/Thiskeyword/Thiskeyword";
 import Parent from "./components/Parent/Parent";
 import Users from "./components/Users/Users";
 import Contact from "./components/Contact/Contact";
+import Notfound from "./components/Notfound/Notfound";
 import * as serviceWorker from './serviceWorker';
 
-import {Route, Link, BrowserRouter as Router} from 'react-router-dom';
+import {Route, Link, BrowserRouter as Router, Switch} from 'react-router-dom';
 
 class Rounting extends React.Component {
     render() {
@@ -30,9 +31,12 @@ class Rounting extends React.Component {
                             <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
-                <Route exact path="/" component={App}/>
-                <Route path = "/users" component = {Users} />
-                <Route path="/contact" component={Contact}/>
+                    <Switch>
+                        <Route exact path="/" component={App}/>
+                        <Route path = "/users" component = {Users} />
+                        <Route path="/contact" component={Contact}/>
+                        <Route component={ Notfound } />
+                    </Switch>
                 </div>
             </Router>
              )
