@@ -7,6 +7,8 @@ import App from "./axolotls/src/App";
 import Users from "./axolotls/src/components/Users/Users";
 import Contact from "./axolotls/src/components/Contact/Contact";
 
+// Routing class is usually in the top level.
+
 // class Rounting extends React.Component {
 //     render() {
 //         return (
